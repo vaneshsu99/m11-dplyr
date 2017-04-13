@@ -10,7 +10,7 @@ devtools::install_github("hadley/fueleconomy")
 library(fueleconomy)
 
 # You should have have access to the `vehicles` data.frame
-View(library)
+View(vehicles)
 
 # Create a data.frame of vehicles from 1997
 vehicles.1997 <- vehicles[vehicles$year=='1997',]

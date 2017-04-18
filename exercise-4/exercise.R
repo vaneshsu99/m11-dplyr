@@ -1,7 +1,7 @@
 # Exercise 4: DPLYR and flights data
 
 # Install the nycflights13 package and read it in.  Require the dplyr package
-# install.packages("nycflights13")
+install.packages("nycflights13")
 library(nycflights13)
 library(dplyr)
 
